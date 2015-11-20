@@ -1,0 +1,96 @@
+body {
+    background-image:url('http://www.animateit.net/data/media/189/anim005.gif');
+    background-color:magenta;
+    text-align: center;
+    padding: 0 25px;
+    font-family: Comic Sans MS;
+    font-size:15px;
+}
+
+#main {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    background-image:url('http://www.clipartbest.com/cliparts/xcg/99e/xcg99ekcA.gif');
+    background-color:lightblue;
+    padding: 50px 60px;
+        box-shadow: 1px 2px 10px 25px Red;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#main h1 span {
+    font-style:italic;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+form {
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+form input[type=text] {
+    margin-right: 10px;
+    width: 70%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#chats {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-image: url('http://media2.giphy.com/media/1qj9rg3xfD9Hq/giphy.gif');
+    box-shadow: 1px 2px 10px 10px yellow;
+    color: red;
+
+}
+
+#chats .username {
+    font-weight: 800;
+}
+
+#chats:hover {
+    background-color: #ddd;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+.spinner img {
+    padding: 10px;
+}
+
+.set {
+   padding-bottom: 15px;
+}
+
+.words {
+    font-color: yellow;
+}
